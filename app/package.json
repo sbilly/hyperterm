@@ -9,7 +9,7 @@
     "hterm-umdjs": "1.1.2",
     "json-loader": "0.5.4",
     "mousetrap": "1.6.0",
-    "ms": "0.7.1",
+    "ms": "2.0.0",
     "object-values": "1.0.0",
     "react": "15.2.1",
     "react-addons-pure-render-mixin": "15.2.1",
