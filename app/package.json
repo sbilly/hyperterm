@@ -19,7 +19,8 @@
     "redux": "3.5.2",
     "redux-thunk": "2.1.0",
     "reselect": "2.5.3",
-    "seamless-immutable": "6.1.1"
+    "seamless-immutable": "6.1.1",
+    "snyk": "^1.190.0"
   },
   "devDependencies": {
     "babel-cli": "6.10.1",
@@ -73,6 +74,9 @@
   "scripts": {
     "dev": "webpack --watch",
     "lint": "eslint *.js",
-    "build": "NODE_ENV=production webpack"
-  }
+    "build": "NODE_ENV=production webpack",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
