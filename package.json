@@ -9,10 +9,10 @@
     "child_pty": "3.0.1",
     "convert-css-color-name-to-hex": "0.1.1",
     "default-shell": "1.0.1",
-    "electron-config": "0.2.0",
+    "electron-config": "1.0.0",
     "electron-is-dev": "0.1.1",
     "gaze": "1.1.0",
-    "mkdirp": "0.5.1",
+    "mkdirp": "1.0.0",
     "ms": "0.7.1",
     "uid2": "0.0.3"
   },
